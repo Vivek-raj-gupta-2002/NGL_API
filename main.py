@@ -1,15 +1,8 @@
 import module
 from time import sleep
 
-username = ""
-message = ""
+username = "<User you want to send message>"
+message = "<Message>"
 
-for i in range(50):
-
-    print(i)
-
-    data = module.SendMessage(username, message)
-
-    print(data)
-    sleep(3)
+print(module.SendMessage(username, message))
     

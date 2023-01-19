@@ -22,4 +22,6 @@ pip install -r requirements.txt
 
 4. Run the main.py file in the environment.
 
-
+```
+python3 main.py 
+```
