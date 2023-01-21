@@ -10,10 +10,18 @@ python -m venv env
 ```
 
 2. Activate the virtual environment
+
+    
 ```
+(windows)
 .\env\Scripts\activate
 ```
 
+
+```
+(Linux)
+source ./env/bin/activate
+```
 3. Install the requirements using requirements.txt
 
 ```
